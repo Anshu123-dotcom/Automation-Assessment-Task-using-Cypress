@@ -1,0 +1,103 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites name="Mocha Tests" time="2.213" tests="2" failures="2">
+  <testsuite name="Root Suite" timestamp="2025-10-04T16:58:31" tests="0" file="cypress\e2e\features\signup_login.feature" time="0.000" failures="0">
+  </testsuite>
+  <testsuite name="Parabank Sign Up and Login" timestamp="2025-10-04T16:58:31" tests="2" time="2.194" failures="2">
+    <testcase name="Parabank Sign Up and Login User registers a new account" time="0.000" classname="User registers a new account">
+      <failure message="
+Step implementation missing for &quot;I navigate to the Parabank registration page&quot;.
+
+We tried searching for files containing step definitions using the following search pattern templates:
+
+  - cypress\e2e\features/[filepath]/**/*.{js,mjs,ts,tsx}
+  - cypress\e2e\features/[filepath].{js,mjs,ts,tsx}
+  - cypress/support/step_definitions/**/*.{js,mjs,ts,tsx}
+
+These templates resolved to the following search patterns:
+
+  - cypress\e2e\features\signup_login\**\*.{js,mjs,ts,tsx}
+  - cypress\e2e\features\signup_login.{js,mjs,ts,tsx}
+  - cypress\support\step_definitions\**\*.{js,mjs,ts,tsx}
+
+These patterns matched **no files** containing step definitions. This almost certainly means that you have misconfigured `stepDefinitions`.
+
+You can implement it using the suggestion(s) below.
+
+  Given(&quot;I navigate to the Parabank registration page&quot;, function () {
+    return &quot;pending&quot;;
+  });
+  " type="Error"><![CDATA[Error: 
+Step implementation missing for "I navigate to the Parabank registration page".
+
+We tried searching for files containing step definitions using the following search pattern templates:
+
+  - cypress\e2e\features/[filepath]/**/*.{js,mjs,ts,tsx}
+  - cypress\e2e\features/[filepath].{js,mjs,ts,tsx}
+  - cypress/support/step_definitions/**/*.{js,mjs,ts,tsx}
+
+These templates resolved to the following search patterns:
+
+  - cypress\e2e\features\signup_login\**\*.{js,mjs,ts,tsx}
+  - cypress\e2e\features\signup_login.{js,mjs,ts,tsx}
+  - cypress\support\step_definitions\**\*.{js,mjs,ts,tsx}
+
+These patterns matched **no files** containing step definitions. This almost certainly means that you have misconfigured `stepDefinitions`.
+
+You can implement it using the suggestion(s) below.
+
+  Given("I navigate to the Parabank registration page", function () {
+    return "pending";
+  });
+  
+    at Context.eval (https://parabank.parasoft.com/__cypress/tests?p=cypress\e2e\features\signup_login.feature:15031:29)]]></failure>
+    </testcase>
+    <testcase name="Parabank Sign Up and Login User logs in with valid credentials" time="0.000" classname="User logs in with valid credentials">
+      <failure message="
+Step implementation missing for &quot;I navigate to the Parabank login page&quot;.
+
+We tried searching for files containing step definitions using the following search pattern templates:
+
+  - cypress\e2e\features/[filepath]/**/*.{js,mjs,ts,tsx}
+  - cypress\e2e\features/[filepath].{js,mjs,ts,tsx}
+  - cypress/support/step_definitions/**/*.{js,mjs,ts,tsx}
+
+These templates resolved to the following search patterns:
+
+  - cypress\e2e\features\signup_login\**\*.{js,mjs,ts,tsx}
+  - cypress\e2e\features\signup_login.{js,mjs,ts,tsx}
+  - cypress\support\step_definitions\**\*.{js,mjs,ts,tsx}
+
+These patterns matched **no files** containing step definitions. This almost certainly means that you have misconfigured `stepDefinitions`.
+
+You can implement it using the suggestion(s) below.
+
+  Given(&quot;I navigate to the Parabank login page&quot;, function () {
+    return &quot;pending&quot;;
+  });
+  " type="Error"><![CDATA[Error: 
+Step implementation missing for "I navigate to the Parabank login page".
+
+We tried searching for files containing step definitions using the following search pattern templates:
+
+  - cypress\e2e\features/[filepath]/**/*.{js,mjs,ts,tsx}
+  - cypress\e2e\features/[filepath].{js,mjs,ts,tsx}
+  - cypress/support/step_definitions/**/*.{js,mjs,ts,tsx}
+
+These templates resolved to the following search patterns:
+
+  - cypress\e2e\features\signup_login\**\*.{js,mjs,ts,tsx}
+  - cypress\e2e\features\signup_login.{js,mjs,ts,tsx}
+  - cypress\support\step_definitions\**\*.{js,mjs,ts,tsx}
+
+These patterns matched **no files** containing step definitions. This almost certainly means that you have misconfigured `stepDefinitions`.
+
+You can implement it using the suggestion(s) below.
+
+  Given("I navigate to the Parabank login page", function () {
+    return "pending";
+  });
+  
+    at Context.eval (https://parabank.parasoft.com/__cypress/tests?p=cypress\e2e\features\signup_login.feature:15031:29)]]></failure>
+    </testcase>
+  </testsuite>
+</testsuites>
